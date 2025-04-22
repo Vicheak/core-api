@@ -12,7 +12,7 @@ public class ApiService {
 
     @GetMapping("/ping")
     public String pingService(){
-        return "Ping to api core application successfully!";
+        return "ping to core api successfully!";
     }
 
     @GetMapping("/test")
