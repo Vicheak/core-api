@@ -15,4 +15,9 @@ public class ApiService {
         return "Ping to api core application successfully!";
     }
 
+    @GetMapping("/test")
+    public String test(){
+        return "test application!";
+    }
+
 }
