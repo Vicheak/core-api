@@ -27,7 +27,7 @@
 		<url/>
 	</scm>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 		<sonar.projectKey>core-api_d5ef954f-0a67-401b-aeb6-251d5db1c2f1</sonar.projectKey>
 		<sonar.projectName>core-api</sonar.projectName>
 	</properties>
