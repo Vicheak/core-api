@@ -1,0 +1,18 @@
+package com.api.core.baseapi;
+
+import lombok.RequiredArgsConstructor;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/api")
+@RequiredArgsConstructor
+public class ApiService {
+
+    @GetMapping("/ping")
+    public String pingService(){
+        return "Ping to api core application successfully!";
+    }
+
+}
